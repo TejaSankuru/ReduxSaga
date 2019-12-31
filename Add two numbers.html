@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <script>
+        function add() {
+            var a, b, res;
+            a = Number(document.getElementById("first").value);
+            b = Number(document.getElementById("second").value);
+            res = a + b;
+document.getElementById("result").value = res;
+        }
+    </script>
+</head>
+<body>
+    Enter first number: <input id="first">
+    <br>
+    Enter second number: <input id="second">
+    <br>
+    <button onClick="add()">Add</button>
+    Result: <input id="result">
+</body>
+</html>

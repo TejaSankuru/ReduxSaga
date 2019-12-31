@@ -1,0 +1,20 @@
+<!doctype>
+<html>
+    <head>
+        <script>
+            function spliting() {
+                const n ;
+                n = document.myform.n.value;
+            n = parseInt(n);
+Array.from(n.toString()).map(Number);
+            }
+        </script>
+    </head>
+    <body>
+            <form name="myform">
+                    Enter number:
+                    <input type="text" name=n value="">
+                    <button onClick="spliting()">Check</button>
+                </form>
+    </body>
+</html>
